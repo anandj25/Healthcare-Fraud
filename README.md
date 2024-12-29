@@ -8,6 +8,7 @@ This project focuses on developing machine learning models to detect and predict
 - [Introduction](#introduction)
 - [Objectives](#objectives)
 - [Dataset](#dataset)
+- [Requirements](#Requirements)
 - [Data Preprocessing](#data-preprocessing)
 - [Feature Engineering](#feature-engineering)
 - [Modeling and Evaluation](#modeling-and-evaluation)
@@ -43,6 +44,23 @@ The project uses the **Healthcare Provider Fraud Detection Analysis** dataset fr
 Combined, the dataset contains 556,728 rows and 54 features.
 
 ---
+## Requirements
+
+To replicate this project, ensure you have the following dependencies installed:
+
+### Python Version
+- Python 3.8 or higher
+
+### Libraries
+- `numpy` (Array and numerical operations)
+- `pandas` (Data manipulation and analysis)
+- `matplotlib` (Data visualization)
+- `seaborn` (Enhanced data visualization)
+- `scikit-learn` (Machine learning models and preprocessing tools)
+- `xgboost` (Gradient boosting for machine learning)
+- `imbalanced-learn` (Handling imbalanced datasets with SMOTE)
+- `shap` (Model explainability and feature importance)
+- `pyyaml` (Config file parsing, if applicable)
 
 ## Data Preprocessing
 
@@ -113,8 +131,6 @@ Combined, the dataset contains 556,728 rows and 54 features.
 | Class 1 (Fraud)    | 0.88      | 0.93   | 0.91     | 106     |
 | **Accuracy**        |           |        | **0.98** | 1081    |
 
----
 
-## License
 
-This repository is licensed under the [MIT License](LICENSE).
+
